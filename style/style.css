@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(resource/background.png);
+    background-image: url(resources/background.png);
     background-size: cover;
     background-repeat: no-repeat; /* чтобы избежать дублирования */
 }
