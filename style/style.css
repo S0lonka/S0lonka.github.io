@@ -1,3 +1,75 @@
+* {
+    font-family: arial;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+}
+
 body {
-  background-color: black;
+    background-image: url(/background.png);
+    background-size: cover;
+    background-repeat: no-repeat; /* чтобы избежать дублирования */
+}
+
+.logo {
+    display: flex;
+    width: 134px;
+    height: 50px;
+
+    border-radius: 60px;
+    border: 3px solid #E5DCFF;
+    background-color: #574E8C;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.logo-link{
+    font-size: 27px;
+    color: #FFFFFF;
+}
+
+.main-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-main-block {
+    display: flex;
+    margin-bottom: 34px;
+    gap: 25px;
+}
+
+.bottom-main-block {
+    display: flex;
+    gap: 25px;
+}
+
+.about-me, .social, .my-project, .skills{
+    background-color: #B4A9EE;
+    border-radius: 50px;
+}
+
+.about-me {
+    width: 424px;
+    height: 279px;
+}
+
+.social {
+    width: 573px;
+    height: 279px;
+}
+
+.my-project {
+    width: 573px;
+    height: 562px;
+}
+
+.skills {
+    width: 424px;
+    height: 562px;
 }
